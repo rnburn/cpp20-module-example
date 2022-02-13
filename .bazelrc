@@ -1,0 +1,6 @@
+build --copt -std=c++20
+build --copt -fmodules
+build --copt -fno-implicit-modules
+build --copt -fbuiltin-module-map
+build --copt -stdlib=libc++
+build --linkopt -stdlib=libc++
